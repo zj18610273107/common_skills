@@ -1,0 +1,6 @@
+interface:
+  display_name: "函数剖析"
+  short_description: "完整剖析 C 函数"
+  default_prompt: "使用 $function-anatomy 剖析指定函数，按参数、局部变量、返回值、生命周期、配对调用和错误路径输出完整分析。"
+policy:
+  allow_implicit_invocation: true
