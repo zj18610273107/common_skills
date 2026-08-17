@@ -1,0 +1,6 @@
+interface:
+  display_name: "ai-code-safe-dev"
+  short_description: "AI代码安全开发"
+  default_prompt: "使用 $ai-code-safe-dev 对 C/Linux/内核/驱动/嵌入式代码进行安全、可审查、可回滚的修改、重构、Bug 修复和 Code Review。"
+policy:
+  allow_implicit_invocation: true
